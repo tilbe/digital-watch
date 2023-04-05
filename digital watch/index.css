@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(168, 169, 232, 0.133), #201848);
+    overflow: hidden;
+}
+
+
+
+#clock {
+    width: 500px;
+    width: 500px;
+    text-align: center;
+    margin-top: 200px;
+    left: 45%;
+    position: absolute;
+
+    margin-left: -50px;
+
+}
+
+#clock h2 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 30px;
+    margin-left: -160px;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+ 
+
+
+}
+
+.clock-items {
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 2%;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
